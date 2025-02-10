@@ -1,4 +1,5 @@
 <?php
- 
-require_once '../app/core/Router.php';
-$Router = new Router();
+session_start();
+require "../app/core/init.php";
+
+$app = new app();
